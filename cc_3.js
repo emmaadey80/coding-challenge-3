@@ -14,3 +14,17 @@ prices.shift();
 // Logging the updated price list to console (63, 42, 99, 53, 12)
 console.log("Updated Prices:", prices);
 
+// Task 2: Modifying Customer Orders Scenario
+console.log("\nTask 2- Modifying Customer Orders");
+
+// Declaring an array 'order'
+let orders = [ 10, 15, 45, 35, 60];
+console.log("Orders:", orders);
+
+// Increasing the third order quantity by 5 (3rd order is 45 + 5 = 50)
+orders[2] += 5;
+console.log("Updated Orders:", orders);
+
+// Total order count 
+let totalOrders = orders.reduce((total, orders) => total + orders, 0);
+console.log("Total number of orders:", totalOrders); 
