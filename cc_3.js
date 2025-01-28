@@ -47,3 +47,37 @@ employee.performanceScore = 11;
 employee.promotionEligible = employee.performanceScore >= 13;
 
 console.log(employee);
+
+// Task 4: Customer Feedback Records Scenario
+console.log("\nTask 4- Customer Feedback Records");
+
+// Declaring an array 'feedback'
+let feedback = [
+    {
+customerName: "Marlo",
+feedbackText: "Very happy with purchase, highly recommend!",
+rating: 5
+    },
+    {
+        customerName: "Alfie",
+        feedbackText:"Quality needs improvement, but satisfied.",
+        rating: 3
+    },
+    {
+        customerName: "Bentley",
+        feedbackText: "Great product, will definitely re purchase!",
+        rating: 5
+    }
+
+];
+
+
+// Add new feedback to the array
+feedback.push({
+    customerName: "Harley",
+    feedbackText: "Arrived broken.:",
+    rating: 1
+});
+
+// Log the entire feedback
+console.log("Feedback:", feedback);
