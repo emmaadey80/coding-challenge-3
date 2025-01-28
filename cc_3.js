@@ -28,3 +28,22 @@ console.log("Updated Orders:", orders);
 // Total order count 
 let totalOrders = orders.reduce((total, orders) => total + orders, 0);
 console.log("Total number of orders:", totalOrders); 
+
+//Task 3: Employee Performance Tracking Scenario
+console.log("\nTask 3- Employee Performace Tracking");
+
+// Declare an object 'employee' with properties
+let employee = {
+name: "Jane Hopper",
+role: "Mage",
+performanceScore: 9,
+isActive: true
+};
+
+// Updating the performaceScore property
+employee.performanceScore = 11;
+
+// Adding a new property 'promotionEligible' 
+employee.promotionEligible = employee.performanceScore >= 13;
+
+console.log(employee);
