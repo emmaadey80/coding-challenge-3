@@ -54,17 +54,17 @@ console.log("\nTask 4- Customer Feedback Records");
 // Declaring an array 'feedback'
 let feedback = [
     {
-customerName: "Marlo",
+customerName: "Marlo", // First feedback
 feedbackText: "Very happy with purchase, highly recommend!",
 rating: 5
     },
     {
-        customerName: "Alfie",
+        customerName: "Alfie", // Second feedback
         feedbackText:"Quality needs improvement, but satisfied.",
         rating: 3
     },
     {
-        customerName: "Bentley",
+        customerName: "Bentley", // Third feedback
         feedbackText: "Great product, will definitely re purchase!",
         rating: 5
     }
@@ -73,8 +73,8 @@ rating: 5
 
 
 // Add new feedback to the array
-feedback.push({
-    customerName: "Harley",
+feedback.push({ 
+    customerName: "Harley", // Adding fourth feedback to object
     feedbackText: "Arrived broken.:",
     rating: 1
 });
